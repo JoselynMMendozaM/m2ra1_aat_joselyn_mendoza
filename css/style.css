@@ -1,0 +1,72 @@
+body{
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+#lista-empleados{
+    display: flex;
+    flex-direction: row;
+}
+header{
+    background-image: url("../img/banner-1.svg");
+    background-repeat: no-repeat; /* Prevent image tiling */
+    background-position: center; /* Center the image horizontally and vertically */
+    background-size: cover;
+}
+
+nav{
+    background-color: #023e7b;
+}
+form{
+    max-width: 95%;
+    background-attachment: fixed;
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 40px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px  rgba(117, 129, 240, 0.795);
+    background-color:rgba(47, 94, 148, 0.336);
+    border-color: rgb(39, 83, 177);
+}
+
+.txt-title{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+
+}
+
+.container-text{
+    backdrop-filter: blur(10px);
+    border-radius: 40px;
+    padding: 10px;
+    margin: 10px;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 0 0 10px  rgba(152, 152, 154, 0.795);
+}
+
+tr{
+    height: 50px;
+    background-color: #7d92d6;
+
+}
+#enca-tb{
+    background-color: #2241a7;
+}
+table{
+    color: white;
+}
+
+#tabla_datos,
+#logo_int_52{
+    filter: drop-shadow(
+        0 0 10px rgba(0, 0, 0, .8)
+    );
+}
+
+
+
+
